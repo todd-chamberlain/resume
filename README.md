@@ -1,6 +1,6 @@
 # TODD CHAMBERLAIN
 
-Cedar Rapids, IA | (515) 451-3197 | todd.r.chamberlain@gmail.com
+Coralville, IA | (515) 451-3197 | todd.r.chamberlain@gmail.com
 [linkedin.com/in/todd-chamberlain](https://linkedin.com/in/todd-chamberlain) | [github.com/todd-chamberlain](https://github.com/todd-chamberlain)
 
 ---
