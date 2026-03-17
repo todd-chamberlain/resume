@@ -1,124 +1,100 @@
-TODD CHAMBERLAIN
+# TODD CHAMBERLAIN
 
-1509 Olde Hickory Rd, Coralville, IA 52241
-(515) 451-3197 
-
-[todd.r.chamberlain@gmail.com](mailto:todd.r.chamberlain@gmail.com) | [linkedin.com/in/todd-chamberlain](https://linkedin.com/in/todd-chamberlain) | [github.com/t-chamb](https://github.com/t-chamb)
+Cedar Rapids, IA | (515) 451-3197 | todd.r.chamberlain@gmail.com
+[linkedin.com/in/todd-chamberlain](https://linkedin.com/in/todd-chamberlain) | [github.com/todd-chamberlain](https://github.com/todd-chamberlain)
 
 ---
 
-**EXECUTIVE SUMMARY**
+## SUMMARY
 
-Strategic engineering leader with 15+ years scaling high-performance computing infrastructure, AI/ML platforms, and production systems at enterprise scale. Proven track record building and leading cross-functional teams of 100+ engineers, managing multi-site datacenter operations across 420+ locations, and delivering mission-critical AI systems. Currently leading multi-million-line-of-code AI refactoring initiatives for safety-critical aerospace systems. Deep expertise in GPU clusters, Kubernetes, distributed storage, bare metal, and cloud-native architectures with strong business acumen and stakeholder management skills.
-
----
-
-**EXECUTIVE CORE COMPETENCIES**
-
-* Large-Scale Team Leadership
-* Production AI/ML Systems
-* Stakeholder Analysis & Engagement
-* Executive Briefing & Presenting
-* Infrastructure Automation
-* Strategic Vendor Partnerships
-* SLO/Error Budget Management
-* Technical Program Management
-* Cross-Functional Team Building
+Engineering executive with 15+ years leading hyperscale GPU infrastructure, distributed systems, and AI platform delivery. Operated global AI compute environments spanning 10,000+ nodes and 1,500–2,000 GPUs across 420 locations in 15 countries. Architected 2GW federal AI/HPC datacenter expansion strategy supporting liquid-cooled hyperscale deployments (100–200kW per rack). Deep expertise across NVIDIA CUDA and AMD ROCm ecosystems, RDMA/InfiniBand networking, GPU-over-fabric architectures, Slurm/Kubernetes orchestration, and production inference for trillion-parameter models. Currently building a vendor-agnostic distributed inference framework (vLLM + MLX over RDMA) validated against 480B+ parameter frontier models across NVIDIA, AMD, and Apple Silicon. Former founder/CEO with full P&L ownership and board-level engagement.
 
 ---
 
-**TECHNOLOGY CORE COMPETENCIES**
+## CORE EXPERTISE
 
-* GPU Cluster Architecture & Operations
-* AI/ML Production Systems
-* Day 0/1/2 Operations
-* CUDA, PyTorch, PySpark, TensorFlow
-* Docker, Kubernetes, Slurm
-* Bare Metal & Cloud Platforms
-* Python, R, Jupyter Notebook
-* HPC, Batch Processing, Hadoop
-* SLO/Error Budget Frameworks
-* Distributed Storage (Ceph, DRBD, S3)
-* RoCE, RoCEv2, RDMA, InfiniBand
-* 100GbE, DPUs, SONiC, EDR/QDR
+- **GPU & Accelerated Compute:** CUDA, ROCm (AMD Instinct), cuDNN, MIG, DGX-class systems, H100, L40S, A6000, PCIe topology optimization, GPU-over-fabric, direct-to-chip liquid cooling
+- **Cluster Orchestration:** Slurm, Kubernetes, bare metal & air-gapped deployments, multi-datacenter orchestration
+- **High-Bandwidth Networking:** InfiniBand (EDR/QDR), RoCE/RoCEv2, RDMA, 100/200/400GbE, BlueField DPUs, SONiC/Hedgehog programmable fabric
+- **AI Infrastructure:** vLLM, TensorRT, Triton, quantization (GGUF/AWQ/GPTQ), RAG pipelines, knowledge graphs, vector databases, CUDA/MLX/ONNX over RDMA
+- **Computer Vision:** OpenCV, YOLO, OCR, VLM pipelines (Qwen3-VL), real-time video fingerprinting, image preprocessing at scale
+- **Distributed Storage:** Ceph, DRBD, S3, multi-site replication, failure domain mitigation
+- **Security/Compliance:** ITAR, HIPAA, SOC II, zero-trust architectures, defense-grade systems
+- **Executive Leadership:** Org scaling, SLA governance, budget ownership, investor engagement, board reporting
 
 ---
 
-**PROFESSIONAL EXPERIENCE**
+## EXPERIENCE
 
-**Collins Aerospace, Cedar Rapids, IA**
-*AI Engineering Lead* | January 2025 – Present
+### AI Engineering Lead
+**Collins Aerospace (RTX)** · Cedar Rapids, IA · January 2025 – Present
 
-* Leading AI-driven refactoring of Core I/O hardware API (5M+ lines of code), maintaining safety and real-time performance.
-* Directing next-generation Flight Management System AI initiative (10M+ lines), combining LLMs with domain-specific knowledge graphs.
-* Architecting RAG processes utilizing vectorized databases, sophisticated knowledge graphs, and context-driven prompt engineering.
-* Innovating methodologies for session continuity across disparate AI models.
-* Advancing "Target Graph" initiative using graph theory for improved software quality and accelerated development.
+- Led enterprise AI transformation across 15M+ lines of avionics software in safety-critical environment
+- Built distributed, air-gapped inference infrastructure leveraging MIG, Slurm, and Kubernetes
+- Architected RAG + knowledge graph systems for code graph-aware test generation across 5M+ LOC
+- Built hybrid OCR/vision-language preprocessing pipeline (OpenCV, YOLO, VLMs) for automated training data
+- Developed "Target Graph" initiative using graph theory to select representative code examples for LLM context
+- Deployed company-wide software pipeline automation using ephemeral, air-gapped agent workflows
+- Delivered production AI systems with 99.7% uptime in regulated aerospace environment
+- Directed cross-functional engineering, IT, cybersecurity, and program teams
+- Promoted to lead Collins' 2025–2026 AI-driven Software Sustainment Initiative
 
-**Key Achievements:**
+### Founding Technical Consultant
+**First Global Technology (FGT)** · Amenia, NY (Remote) · October 2025 – Present
 
-* Delivered production AI systems with 99.7% uptime.
-* Established AI-driven software sustainment frameworks.
-* Promoted to lead Collins' largest AI Software Sustainment Initiative (2025-2026).
+- Architected 2GW federal AI/HPC datacenter strategy across DOE sites (Idaho National Lab, Oak Ridge, Paducah, Savannah River) supporting ~2.8M liquid-cooled GPUs
+- Designed hyperscale rack density strategy (64 GPUs per rack, 100–200kW per rack) with air and liquid cooling architectures
+- Established reference architectures for next-generation GPU cluster deployment and vendor strategy
+- Founding Member with equity consideration and primary voting rights
 
-**CCR Technologies, Cedar Rapids, IA**
-*Lead Engineer (Head of Infrastructure Engineering)* | February 2023 – December 2024
+### Head of Infrastructure Engineering
+**CCR Technologies** · Cedar Rapids, IA · February 2022 – December 2024
 
-* Directed global Kubernetes standardization across 420 data centers.
-* Architected HPC and AI-driven data pipelines enhancing video quality and recognition models.
-* Unified engineering divisions, significantly optimizing resources and operational efficiency.
-* Deployed SONiC-Hedgehog data center fabric, reducing SLA downtime by 40%.
+- Designed and operated global AI inference platform spanning 10,000 nodes and 1,500–2,000 GPUs across 15 countries
+- Trained and deployed large-scale OpenCV and YOLO models for real-time video fingerprinting (5M+ API requests daily)
+- Architected RDMA/InfiniBand fabric enabling ultra-low-latency distributed model serving
+- Standardized HPC operations across 420+ global sites achieving 99.7% uptime SLA
+- Reduced SLA violations 40% within 90 days through monitoring and orchestration redesign
+- Expanded Kubernetes across multi-site bare metal and cloud environments
+- Implemented SONiC-Hedgehog datacenter fabric orchestration for programmable network infrastructure
+- Delivered multi-site Layer 2 initiatives centralizing edge datasets for AI training pipelines
+- Established multi-billion-dollar market strategy for streaming video ad-exchange platform
 
-**Key Achievements:**
+### Founder & CEO / CTO
+**MedBlox** · Coralville, IA · June 2018 – February 2022
 
-* Achieved rapid SLA improvements for critical clients within 90 days.
-* Delivered multi-site dataset centralization for AI training.
-* Successfully executed zero-downtime migrations for major storage systems.
+- Full P&L ownership of healthcare identity resolution PaaS serving major US health systems
+- Vendor-of-choice for Providence Health (Top 10 US health system, 51 hospitals, ~120K employees) and 3 regional systems
+- Won $46M international government contract; enabled $140M in client A/R recovery
+- Built GPU-accelerated distributed pipelines with Docker/Kubernetes and Ceph-based storage for HIPAA-compliant processing
+- Presented technical scaling strategy to investors, CMS/HHS/VA/NIH stakeholders
+- Managed investor relations, board reporting, and strategic partnerships
 
-**MedBlox, Coralville, IA**
-*CEO & CTO* | June 2018 – February 2023
+### Senior Infrastructure Engineer
+**ITS / University of Iowa** · Iowa City, IA · January 2015 – June 2018
 
-* Directed \$20M healthcare data integration company with comprehensive cloud-based PaaS.
-* Developed innovative solutions for health system mergers and legacy upgrades.
-* Built GPU-accelerated HPC infrastructure.
-* Delivered critical cost-saving algorithms and interoperability platforms for major healthcare initiatives.
+- Deployed first research GPU cluster in the Midwest; managed Tesla S1060 → NVIDIA M40 migration
+- Scaled operations to $150M revenue, 2,500 virtual desktops across multiple facilities
+- Led HPC power optimization initiatives reducing 15kW per rack daily
+- Directed ML initiatives for predictive data mapping, inventory optimization, and regulatory NLP
+- Grew boutique Midwest revenue cycle firm to $150M annually; expanded IT from 2 to 100 staff
 
-**Key Achievements:**
+### Manager / Senior Manager, Technology
+**Acclara (formerly Tegria & MediRevv)** · Coralville, IA · February 2012 – January 2015
 
-* Algorithms saving clients \$140M in accounts receivable.
-* Vendor-of-choice for Dubai Ministry of Health's \$46M initiative.
-* Implemented HIPAA-compliant infrastructure supporting millions of patient records.
+- Engineered and project managed Iowa Datacenter build and full infrastructure buildout
+- Built HPC infrastructure (~320 Intel HNS2600TPFR enclosures, InfiniBand & 40GbE, Knights Landing, NVIDIA GPU over PCIe 2 & 3)
+- Pioneered direct-attached GPU compute in healthcare: 16x Tesla S1060 enclosures converted to 4x NVIDIA M40
+- Built $1.5M scale-out Ceph cluster (~1.5PB) and multi-site/multi-SAN storage fabric
+- Directed private network expansions (dark fiber, VPN, Point-to-Point, Layer 2 bridges, BGP)
 
-**Acclara (formerly Tegria & MediRevv), Coralville, IA**
-*Director / Head of Engineering & Technology* | January 2015 – June 2018
-
-* Scaled company infrastructure and IT division from boutique to \$150M annual revenue.
-* Managed large-scale remote operations technology for 2,500 employees across 48 states.
-* Designed HPC infrastructure, cloud-first strategies, and virtual desktop solutions.
-
-**Key Achievements:**
-
-* Grew company significantly, achieving 35% staffing increase annually.
-* Ensured comprehensive compliance across global operations.
-* Led successful secure remote work transformation.
-
-*Manager/Senior Manager, Technology* | November 2009 – January 2015
-
-* Engineered multi-site infrastructure and data center buildouts.
-* Led strategic network expansions and comprehensive infrastructure projects.
-* Managed critical vendor relationships and ensured business continuity.
+### Technology Analyst
+**Acclara (formerly Tegria & MediRevv)** · Coralville, IA · November 2009 – February 2012
 
 ---
 
-**EDUCATION**
+## EDUCATION
 
-**University of Iowa, Iowa City, IA**
-*B.A. Business and Entrepreneurship* | August 2006 – December 2008
-
-**Iowa State University, Ames, IA**
-*Electrical & Electronic Engineering Coursework* | August 2002 – December 2004
-
-**Kirkwood Community College, Iowa City, IA**
-*A.A. Business* | August 2005 – May 2006
-
-**Additional Qualifications:** Unique blend of electrical engineering foundation and business leadership experience, facilitating strategic technical decision-making aligned with business objectives.
+**University of Iowa** — B.A. Business and Entrepreneurship
+**Kirkwood Community College** — A.A. Business
+**Iowa State University** — Two years Electronic & Electrical Engineering coursework
